@@ -4,4 +4,3 @@ The communication between client and server is handled by using two intermediate
 The universal service browser that we can observe is like a specialized web browser, except instead of HTML pages, the service browser downloads and displays interactive Java GUIs that we're calling universal services and can create anything as far as our imagination is capable of. 
 And then running application and having fun.
 
-![Иллюстрация к проекту](https://github.com/sineDtS/RMIBrowser/raw/master/Screenshots%20of%20the%20running%20application/Main.PNG)
