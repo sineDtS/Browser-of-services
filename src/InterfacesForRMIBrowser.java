@@ -1,5 +1,3 @@
-package com.company;
-
 import javax.sound.midi.*;
 import javax.swing.*;
 import java.awt.*;
