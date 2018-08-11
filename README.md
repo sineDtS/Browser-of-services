@@ -9,7 +9,7 @@ And then running application and having fun.
 
 [Remote Method Invocation (RMI)](https://docs.oracle.com/javase/9/docs/api/java/rmi/package-summary.html) is an API which allows an object to invoke a method on an object that exists in another address space, which could be on the same machine or on a remote machine. Through RMI, object running in a JVM present on a computer (Client side) can invoke methods on an object present in another JVM (Server side). RMI creates a public remote server object that enables client and server side communications through simple method calls on the server object.
 
-The communication between client and server is handled by using two intermediate objects: Stub object (on client side) and Skeleton object (on server side).
+The communication between client and server is handled by using two intermediate objects: *Stub object* (on client side) and *Skeleton object* (on server side).
 
 ## Platform-specific notes
 
