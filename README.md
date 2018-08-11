@@ -56,3 +56,18 @@ $ rmiregistry
 The remote service should work in the background.
 
 #### And now we'll start the client (ServiceBrowser.java) and having fun.
+
+## How can I extend this application?
+
+We have 3 services (mini-applications) in `InterfacesForRMIBrowser.java`, which are called *DiceService*, *MiniMusicService* and *DayOfTheWeekService* respectively.
+
+Each one has its own class.
+
+But we also have interface `Service`. This is the key to everything. This very simple interface has just one method, `getGuiPanel()`. 
+Every service that gets shipped over to the client must implement this interface. This is what makes the whole thing **UNIVERSAL**.
+
+I created these classes, and you may do the same and extend the application. Just implement the interface `Service` and this new service will be included in the application.
+
+Good luck and happy coding!
+
+
